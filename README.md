@@ -1,2 +1,2 @@
 # zynq
-Embedded System Design on Zynq 교재 안에 있는 소스코드
+<a href="http://www.inipro.net/goods_detail.php?goodsIdx=617318">mbedded System Design on Zynq</a> 안에 있는 소스코드
