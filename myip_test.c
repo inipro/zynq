@@ -8,7 +8,7 @@ int main (void)
 	int switches_check;
 	u32 myip_BaseAddress = XPAR_MYIP_0_S_AXI_BASEADDR;
 
-	print("-- Start of the Program --\r\n");
+	xil_printf("-- Start of the Program --\r\n");
 
 	XGpio_Initialize(&switches, XPAR_AXI_GPIO_0_DEVICE_ID);
 	XGpio_SetDataDirection(&switches, 1, 0xffffffff);
