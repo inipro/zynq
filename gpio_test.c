@@ -6,7 +6,7 @@ int main (void)
   XGpio switches, leds;
   int switches_check;
 
-  print("-- Start of the Program --\r\n");
+  xil_printf("-- Start of the Program --\r\n");
 
   XGpio_Initialize(&switches, XPAR_SWITCHES_DEVICE_ID);
   XGpio_SetDataDirection(&switches, 1, 0xffffffff);
